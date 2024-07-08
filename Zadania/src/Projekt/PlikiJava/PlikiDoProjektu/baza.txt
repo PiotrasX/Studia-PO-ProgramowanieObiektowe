@@ -1,0 +1,5 @@
+Osobowy;Couple;BMW;M8 Competition;Czarny;4.4;625;321;1789.0;2020;18500;510000;4;5;1023.3
+Autobus;Turystyczny;Neoplan;Tourliner;Biały;14.3;380;131;17608.9;2006;229445;250000;49;3;14093.4;6
+Motocykl;Osobowy;Indian;Scout;Szary;1.13;95;139;198.9;2021;10250;48000;1;2
+Ciezarowy;Ciągnik siodłowy;Renault;HIGH 520;Czarny;12.8;520;140;4698.5;2017;694236;239850;2;2;14564.5;8
+CiagnikRol;Gąsienicowy;Belos;Pro 54;Pomarańczowy;2.3;200;56;3198.0;2010;54357;84380;2;1;12646.5

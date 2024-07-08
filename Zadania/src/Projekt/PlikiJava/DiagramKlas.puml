@@ -1,0 +1,19 @@
+@startuml
+
+class Main
+class Run
+class Informacje
+abstract class Pojazd
+class Osobowy
+class Autobus
+class Motocykl
+class Ciezarowy
+class CiagnikRol
+
+Osobowy <|- Pojazd
+Autobus <|- Pojazd
+Motocykl <|- Pojazd
+Ciezarowy <|- Pojazd
+CiagnikRol <|- Pojazd
+
+@enduml
