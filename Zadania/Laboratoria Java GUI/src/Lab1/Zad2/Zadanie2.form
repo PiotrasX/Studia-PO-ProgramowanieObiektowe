@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Lab1.Zad2.Zadanie2">
+  <grid id="27dc6" binding="JMainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="5" right="5"/>
+    <constraints>
+      <xy x="20" y="9" width="1008" height="1049"/>
+    </constraints>
+    <properties>
+      <background color="-14275141"/>
+      <foreground color="-14275141"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="1741b" binding="JPanelFull" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="5" left="5" bottom="5" right="5"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14275141"/>
+          <foreground color="-14275141"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="86575" binding="JPanel3" layout-manager="GridLayoutManager" row-count="4" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="320" height="320"/>
+                <preferred-size width="320" height="320"/>
+                <maximum-size width="320" height="320"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3446248"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c1f23" class="javax.swing.JLabel" binding="a1Label">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Fira Code" size="18"/>
+                  <text value="1"/>
+                </properties>
+              </component>
+              <vspacer id="4059">
+                <constraints>
+                  <grid row="0" column="0" row-span="3" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="78340" class="javax.swing.JLabel" binding="a5Label">
+                <constraints>
+                  <grid row="0" column="3" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Fira Code" size="18"/>
+                  <text value="5"/>
+                </properties>
+              </component>
+              <component id="8c1b8" class="javax.swing.JLabel" binding="a4Label">
+                <constraints>
+                  <grid row="2" column="5" row-span="2" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Fira Code" size="18"/>
+                  <text value="4"/>
+                </properties>
+              </component>
+              <vspacer id="373de">
+                <constraints>
+                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="d5159">
+                <constraints>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="d0f65" class="javax.swing.JLabel" binding="a2Label">
+                <constraints>
+                  <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Fira Code" size="18"/>
+                  <text value="2"/>
+                </properties>
+              </component>
+              <component id="251a3" class="javax.swing.JLabel" binding="a3Label">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Fira Code" size="18"/>
+                  <text value="3"/>
+                </properties>
+              </component>
+              <component id="67140" class="javax.swing.JLabel" binding="a6Label">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Fira Code" size="18"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="f71c6" binding="JPanel9" layout-manager="GridLayoutManager" row-count="4" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="320" height="320"/>
+                <preferred-size width="320" height="320"/>
+                <maximum-size width="320" height="320"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3446248"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6ada2" class="javax.swing.JButton" binding="wcisnij1Button">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16563961"/>
+                  <foreground color="-9026117"/>
+                  <text value="Wciśnij 1"/>
+                </properties>
+              </component>
+              <component id="d7abc" class="javax.swing.JButton" binding="wcisnij3Button">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-2778993"/>
+                  <foreground color="-16775121"/>
+                  <text value="Wciśnij 3"/>
+                </properties>
+              </component>
+              <component id="6c6e2" class="javax.swing.JButton" binding="wcisnij2Button">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12500984"/>
+                  <foreground color="-13825349"/>
+                  <text value="Wciśnij 2"/>
+                </properties>
+              </component>
+              <vspacer id="5ddfd">
+                <constraints>
+                  <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <hspacer id="d8851">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="cb422">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="cb4d3" binding="JPanel4" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="320" height="320"/>
+                <preferred-size width="320" height="320"/>
+                <maximum-size width="320" height="320"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3446248"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="35f9" class="javax.swing.JLabel" binding="tajemnica2Label">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="6" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="300" height="100"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Bookman Old Style" size="96" style="3"/>
+                  <foreground color="-4521647"/>
+                  <text value=""/>
+                  <verticalAlignment value="3"/>
+                  <verticalTextPosition value="1"/>
+                </properties>
+              </component>
+              <component id="b92cc" class="javax.swing.JLabel" binding="tekstPoZmianieLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14860007"/>
+                  <foreground color="-12500037"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="4"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="b7c87" binding="JPanel7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="320" height="320"/>
+                <preferred-size width="320" height="320"/>
+                <maximum-size width="320" height="320"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3446248"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="8dad2" class="javax.swing.JTextPane" binding="tutajZacznijPisacTextPane">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <enabled value="false"/>
+                  <text value="Tutaj zacznij pisać..."/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="a2fb8" binding="JPanel6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="320" height="320"/>
+                <preferred-size width="320" height="320"/>
+                <maximum-size width="320" height="320"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3446248"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a29c3" class="javax.swing.JLabel" binding="tajemnicaLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="286dd" binding="JPanel1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="320" height="320"/>
+                <preferred-size width="320" height="320"/>
+                <maximum-size width="320" height="320"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3446248"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d4e6e" class="javax.swing.JButton" binding="okButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-11879559"/>
+                  <font name="Barlow Condensed Black" size="96" style="1"/>
+                  <foreground color="-15113029"/>
+                  <text value="OK"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="21dfc" binding="JPanel8" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="320" height="320"/>
+                <preferred-size width="320" height="320"/>
+                <maximum-size width="320" height="320"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3446248"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="14130" class="javax.swing.JLabel" binding="dataLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="3f3b3" binding="JPanel2" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="320" height="320"/>
+                <preferred-size width="320" height="320"/>
+                <maximum-size width="320" height="320"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3446248"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="1a43b" class="javax.swing.JButton" binding="a2Button" default-binding="true">
+                <constraints>
+                  <grid row="0" column="2" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16105180"/>
+                  <foreground color="-9538885"/>
+                  <text value="2"/>
+                </properties>
+              </component>
+              <component id="318f" class="javax.swing.JButton" binding="a4Button" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16703423"/>
+                  <foreground color="-5391557"/>
+                  <text value="4"/>
+                </properties>
+              </component>
+              <component id="6cc16" class="javax.swing.JButton" binding="a6Button" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12517115"/>
+                  <foreground color="-8635973"/>
+                  <text value="6"/>
+                </properties>
+              </component>
+              <component id="de40e" class="javax.swing.JButton" binding="a1Button" default-binding="true">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-15131872"/>
+                  <foreground color="-4736077"/>
+                  <text value="1"/>
+                </properties>
+              </component>
+              <component id="8c2f5" class="javax.swing.JButton" binding="a5Button" default-binding="true">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12509936"/>
+                  <foreground color="-15747397"/>
+                  <text value="5"/>
+                </properties>
+              </component>
+              <component id="f11d" class="javax.swing.JButton" binding="a3Button" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-15843033"/>
+                  <foreground color="-11879559"/>
+                  <text value="3"/>
+                </properties>
+              </component>
+              <hspacer id="95bcb">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="5"/>
+                    <preferred-size width="-1" height="5"/>
+                    <maximum-size width="-1" height="5"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <hspacer id="5a53d">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="5"/>
+                    <preferred-size width="-1" height="5"/>
+                    <maximum-size width="-1" height="5"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <hspacer id="ab73">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+            </children>
+          </grid>
+          <grid id="fdc03" binding="JPanel5" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="320" height="320"/>
+                <preferred-size width="320" height="320"/>
+                <maximum-size width="320" height="320"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3446248"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4a3c8" class="javax.swing.JButton" binding="wlaczButton">
+                <constraints>
+                  <grid row="1" column="2" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16629467"/>
+                  <foreground color="-9293125"/>
+                  <text value="włącz"/>
+                </properties>
+              </component>
+              <hspacer id="71da4">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="4b8e1" class="javax.swing.JCheckBox" binding="check3CheckBox" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Check3"/>
+                </properties>
+              </component>
+              <component id="66d70" class="javax.swing.JCheckBox" binding="check1CheckBox" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Check1"/>
+                </properties>
+              </component>
+              <component id="ca7c9" class="javax.swing.JCheckBox" binding="check2CheckBox" default-binding="true">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Check2"/>
+                </properties>
+              </component>
+              <component id="899f2" class="javax.swing.JRadioButton" binding="cheok4RadioButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Cheok4"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <hspacer id="331b">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="5"/>
+                <preferred-size width="-1" height="5"/>
+                <maximum-size width="-1" height="5"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <hspacer id="d1076">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="5"/>
+                <preferred-size width="-1" height="5"/>
+                <maximum-size width="-1" height="5"/>
+              </grid>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
