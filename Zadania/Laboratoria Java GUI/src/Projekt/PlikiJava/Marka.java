@@ -1,0 +1,38 @@
+package Projekt.PlikiJava;
+
+public enum Marka
+{
+    Toyota,
+    Volkswagen,
+    Ford,
+    Honda,
+    Chevrolet,
+    BMW,
+    MercedesBenz,
+    Nissan,
+    Audi,
+    Hyundai,
+    Kia,
+    Peugeot,
+    Renault,
+    Skoda,
+    Mazda,
+    Tesla,
+    Volvo,
+    Subaru,
+    LandRover,
+    Jaguar,
+    Fiat,
+    Porsche,
+    Lexus,
+    Dodge,
+    Jeep,
+    Cadillac,
+    Infiniti,
+    Acura,
+    Lincoln,
+    Buick,
+    Belos,
+    Indian,
+    Neoplad
+}

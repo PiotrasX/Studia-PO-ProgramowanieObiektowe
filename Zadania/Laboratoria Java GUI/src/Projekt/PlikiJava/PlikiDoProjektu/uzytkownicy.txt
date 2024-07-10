@@ -1,0 +1,5 @@
+administrator;admin;admin@admin.admin;admin;0000000
+uzytkownik;piotr;piotr@gmail.com;Piotr123!
+uzytkownik;janusz;janusz@gmail.com;Janusz123!
+uzytkownik;katarzyna;kasia@gmail.com;Kasia123!
+uzytkownik;a;a;a

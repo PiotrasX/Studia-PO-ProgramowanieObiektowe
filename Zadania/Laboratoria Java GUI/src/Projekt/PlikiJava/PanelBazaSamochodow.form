@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Projekt.PlikiJava.PanelBazaSamochodow">
+  <grid id="27dc6" binding="JMainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="50" bottom="50" right="50"/>
+    <constraints>
+      <xy x="44" y="26" width="2406" height="1193"/>
+    </constraints>
+    <properties>
+      <opaque value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="60ea7" layout-manager="GridLayoutManager" row-count="32" column-count="12" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="50"/>
+        <constraints>
+          <grid row="2" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <vspacer id="303d7">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="5"/>
+                <preferred-size width="-1" height="5"/>
+                <maximum-size width="-1" height="5"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="fe645">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="5"/>
+                <preferred-size width="-1" height="5"/>
+                <maximum-size width="-1" height="5"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="aef94" class="javax.swing.JLabel" binding="labelRodzaj">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value="Rodzaj: "/>
+            </properties>
+          </component>
+          <component id="e7a83" class="javax.swing.JLabel" binding="labelNadwozie">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value="Nadwozie:"/>
+            </properties>
+          </component>
+          <component id="d81d4" class="javax.swing.JLabel" binding="labelMarka">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value="Marka: "/>
+            </properties>
+          </component>
+          <component id="7c724" class="javax.swing.JLabel" binding="labelKolor">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value="Kolor: "/>
+            </properties>
+          </component>
+          <component id="1f372" class="javax.swing.JComboBox" binding="comboBoxRodzaj">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="7" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="39"/>
+                <preferred-size width="-1" height="39"/>
+                <maximum-size width="-1" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+              <model>
+                <item value="Samochód osobowy"/>
+                <item value="Samochód ciężarowy"/>
+                <item value="Ciągnik rolniczy"/>
+                <item value="Motocykl"/>
+                <item value="Autobus"/>
+              </model>
+            </properties>
+          </component>
+          <component id="67a81" class="javax.swing.JComboBox" binding="comboBoxNadwozie">
+            <constraints>
+              <grid row="5" column="4" row-span="1" col-span="7" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="39"/>
+                <preferred-size width="-1" height="39"/>
+                <maximum-size width="-1" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="3ca15" class="javax.swing.JComboBox" binding="comboBoxKolor">
+            <constraints>
+              <grid row="9" column="4" row-span="1" col-span="7" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="39"/>
+                <preferred-size width="-1" height="39"/>
+                <maximum-size width="-1" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="8683e" class="javax.swing.JComboBox" binding="comboBoxMarka">
+            <constraints>
+              <grid row="7" column="4" row-span="1" col-span="7" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="39"/>
+                <preferred-size width="-1" height="39"/>
+                <maximum-size width="-1" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="93960" class="javax.swing.JCheckBox" binding="checkBoxRodzaj">
+            <constraints>
+              <grid row="3" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="9058f" class="javax.swing.JCheckBox" binding="checkBoxNadwozie">
+            <constraints>
+              <grid row="5" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="df30" class="javax.swing.JCheckBox" binding="checkBoxMarka">
+            <constraints>
+              <grid row="7" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4514e" class="javax.swing.JCheckBox" binding="checkBoxKolor">
+            <constraints>
+              <grid row="9" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="6d742" class="javax.swing.JLabel" binding="labelPojemnoscSilnika">
+            <constraints>
+              <grid row="11" column="0" row-span="3" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value="Pojemność silnika (cm^3): "/>
+            </properties>
+          </component>
+          <vspacer id="ebae8">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="5"/>
+                <preferred-size width="-1" height="5"/>
+                <maximum-size width="-1" height="5"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="ec638">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="5"/>
+                <preferred-size width="-1" height="5"/>
+                <maximum-size width="-1" height="5"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="1de6a" class="javax.swing.JLabel" binding="labelPojSilMin">
+            <constraints>
+              <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value=" Minimum:"/>
+            </properties>
+          </component>
+          <component id="939ac" class="javax.swing.JSpinner" binding="spinnerPojSilMin">
+            <constraints>
+              <grid row="11" column="6" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="115" height="39"/>
+                <preferred-size width="115" height="39"/>
+                <maximum-size width="115" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+              <name value="spinnerPojSilMin"/>
+            </properties>
+          </component>
+          <component id="e1ef6" class="javax.swing.JLabel" binding="labelPojSIlMax">
+            <constraints>
+              <grid row="12" column="4" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value=" Maksimum:"/>
+            </properties>
+          </component>
+          <component id="893c9" class="javax.swing.JSpinner" binding="spinnerPojSilMax">
+            <constraints>
+              <grid row="12" column="6" row-span="2" col-span="5" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="115" height="39"/>
+                <preferred-size width="115" height="39"/>
+                <maximum-size width="115" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+              <name value="spinnerPojSilMax"/>
+            </properties>
+          </component>
+          <component id="26072" class="javax.swing.JCheckBox" binding="checkBoxPojSilMax">
+            <constraints>
+              <grid row="12" column="11" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="55b29" class="javax.swing.JCheckBox" binding="checkBoxPojSilMin">
+            <constraints>
+              <grid row="11" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="3e724" class="javax.swing.JLabel" binding="labelMocSilnika">
+            <constraints>
+              <grid row="15" column="0" row-span="3" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value="Moc silnika (KM):"/>
+            </properties>
+          </component>
+          <component id="e9215" class="javax.swing.JLabel" binding="labelMocSilMin">
+            <constraints>
+              <grid row="15" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value=" Minimum:"/>
+            </properties>
+          </component>
+          <component id="67714" class="javax.swing.JSpinner" binding="spinnerMocSilMin">
+            <constraints>
+              <grid row="15" column="6" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="115" height="39"/>
+                <preferred-size width="115" height="39"/>
+                <maximum-size width="115" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+              <name value="spinnerMocSilMin"/>
+            </properties>
+          </component>
+          <component id="75881" class="javax.swing.JLabel" binding="labelMocSilMax">
+            <constraints>
+              <grid row="16" column="4" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value=" Maksimum:"/>
+            </properties>
+          </component>
+          <component id="63e20" class="javax.swing.JCheckBox" binding="checkBoxMocSilMax">
+            <constraints>
+              <grid row="16" column="11" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="8678d" class="javax.swing.JCheckBox" binding="checkBoxMocSilMin">
+            <constraints>
+              <grid row="15" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="65291">
+            <constraints>
+              <grid row="14" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="5"/>
+                <preferred-size width="-1" height="5"/>
+                <maximum-size width="-1" height="5"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="6cac5">
+            <constraints>
+              <grid row="18" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="5"/>
+                <preferred-size width="-1" height="5"/>
+                <maximum-size width="-1" height="5"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="7d54d" class="javax.swing.JSpinner" binding="spinnerMocSilMax">
+            <constraints>
+              <grid row="16" column="6" row-span="2" col-span="5" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="115" height="39"/>
+                <preferred-size width="115" height="39"/>
+                <maximum-size width="115" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+              <name value="spinnerMocSilMax"/>
+            </properties>
+          </component>
+          <component id="7d77e" class="javax.swing.JLabel" binding="labelWagaMax">
+            <constraints>
+              <grid row="20" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value=" Maksimum:"/>
+            </properties>
+          </component>
+          <component id="21a5d" class="javax.swing.JLabel" binding="labelWagaMin">
+            <constraints>
+              <grid row="19" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value=" Minimum:"/>
+            </properties>
+          </component>
+          <component id="3e71a" class="javax.swing.JLabel" binding="labelWaga">
+            <constraints>
+              <grid row="19" column="0" row-span="2" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value="Waga (t):"/>
+            </properties>
+          </component>
+          <component id="87050" class="javax.swing.JSpinner" binding="spinnerWagaMin">
+            <constraints>
+              <grid row="19" column="6" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="115" height="39"/>
+                <preferred-size width="115" height="39"/>
+                <maximum-size width="115" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+              <name value="spinnerWagaMin"/>
+            </properties>
+          </component>
+          <component id="74736" class="javax.swing.JSpinner" binding="spinnerWagaMax">
+            <constraints>
+              <grid row="20" column="6" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="115" height="39"/>
+                <preferred-size width="115" height="39"/>
+                <maximum-size width="115" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+              <name value="spinnerWagaMax"/>
+            </properties>
+          </component>
+          <component id="8496f" class="javax.swing.JCheckBox" binding="checkBoxWagaMin">
+            <constraints>
+              <grid row="19" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="dda42" class="javax.swing.JCheckBox" binding="checkBoxWagaMax">
+            <constraints>
+              <grid row="20" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="6ef2d" class="javax.swing.JLabel" binding="labelRokProdukcji">
+            <constraints>
+              <grid row="22" column="0" row-span="2" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value="Rok produkcji:"/>
+            </properties>
+          </component>
+          <vspacer id="758b6">
+            <constraints>
+              <grid row="21" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="5"/>
+                <preferred-size width="-1" height="5"/>
+                <maximum-size width="-1" height="5"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="b7ea7" class="javax.swing.JLabel" binding="labelRokProdukcjiMin">
+            <constraints>
+              <grid row="22" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value=" Minimum:"/>
+            </properties>
+          </component>
+          <component id="4ddf9" class="javax.swing.JSpinner" binding="spinnerRokProdukcjiMin">
+            <constraints>
+              <grid row="22" column="6" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="115" height="39"/>
+                <preferred-size width="115" height="39"/>
+                <maximum-size width="115" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+              <name value="spinnerRokProdukcjiMin"/>
+            </properties>
+          </component>
+          <component id="27cc6" class="javax.swing.JCheckBox" binding="checkBoxRokProdukcjiMin">
+            <constraints>
+              <grid row="22" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4fd1d" class="javax.swing.JLabel" binding="labelRokProdukcjiMax">
+            <constraints>
+              <grid row="23" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value=" Maksimum:"/>
+            </properties>
+          </component>
+          <component id="658" class="javax.swing.JCheckBox" binding="checkBoxRokProdukcjiMax">
+            <constraints>
+              <grid row="23" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="b35c0" class="javax.swing.JSpinner" binding="spinnerRokProdukcjiMax">
+            <constraints>
+              <grid row="23" column="6" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="115" height="39"/>
+                <preferred-size width="115" height="39"/>
+                <maximum-size width="115" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+              <name value="spinnerRokProdukcjiMax"/>
+            </properties>
+          </component>
+          <component id="ccfb8" class="javax.swing.JLabel" binding="labelPrzebiegMax">
+            <constraints>
+              <grid row="26" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value=" Maksimum:"/>
+            </properties>
+          </component>
+          <component id="7fa07" class="javax.swing.JLabel" binding="labelPrzebiegMin">
+            <constraints>
+              <grid row="25" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value=" Minimum:"/>
+            </properties>
+          </component>
+          <component id="6bc49" class="javax.swing.JLabel" binding="labelPrzebieg">
+            <constraints>
+              <grid row="25" column="0" row-span="2" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value="Przebieg (km): "/>
+            </properties>
+          </component>
+          <component id="6685c" class="javax.swing.JSpinner" binding="spinnerPrzebiegMin">
+            <constraints>
+              <grid row="25" column="6" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="115" height="39"/>
+                <preferred-size width="115" height="39"/>
+                <maximum-size width="115" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+              <name value="spinnerPrzebiegMin"/>
+            </properties>
+          </component>
+          <component id="18d96" class="javax.swing.JCheckBox" binding="checkBoxPrzebiegMin">
+            <constraints>
+              <grid row="25" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="6934" class="javax.swing.JCheckBox" binding="checkBoxPrzebiegMax">
+            <constraints>
+              <grid row="26" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="86491" class="javax.swing.JSpinner" binding="spinnerPrzebiegMax">
+            <constraints>
+              <grid row="26" column="6" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="115" height="39"/>
+                <preferred-size width="115" height="39"/>
+                <maximum-size width="115" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+              <name value="spinnerPrzebiegMax"/>
+            </properties>
+          </component>
+          <vspacer id="59dbe">
+            <constraints>
+              <grid row="24" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="5"/>
+                <preferred-size width="-1" height="5"/>
+                <maximum-size width="-1" height="5"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="6906e" class="javax.swing.JLabel" binding="labelCenaMax">
+            <constraints>
+              <grid row="29" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value=" Maksimum:"/>
+            </properties>
+          </component>
+          <component id="d01a" class="javax.swing.JLabel" binding="labelCenaMin">
+            <constraints>
+              <grid row="28" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value=" Minimum:"/>
+            </properties>
+          </component>
+          <component id="7149" class="javax.swing.JSpinner" binding="spinnerCenaMin">
+            <constraints>
+              <grid row="28" column="6" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="115" height="39"/>
+                <preferred-size width="115" height="39"/>
+                <maximum-size width="115" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+              <inheritsPopupMenu value="false"/>
+              <name value="spinnerCenaMin"/>
+            </properties>
+          </component>
+          <component id="cc6dc" class="javax.swing.JCheckBox" binding="checkBoxCenaMin">
+            <constraints>
+              <grid row="28" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="3154e" class="javax.swing.JCheckBox" binding="checkBoxCenaMax">
+            <constraints>
+              <grid row="29" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="920cf" class="javax.swing.JSpinner" binding="spinnerCenaMax">
+            <constraints>
+              <grid row="29" column="6" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="115" height="39"/>
+                <preferred-size width="115" height="39"/>
+                <maximum-size width="115" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-1"/>
+              <name value="spinnerCenaMax"/>
+            </properties>
+          </component>
+          <vspacer id="b425f">
+            <constraints>
+              <grid row="27" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="5"/>
+                <preferred-size width="-1" height="5"/>
+                <maximum-size width="-1" height="5"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="ed1e3" class="javax.swing.JLabel" binding="labelCena">
+            <constraints>
+              <grid row="28" column="0" row-span="2" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value="Cena (PLN):"/>
+            </properties>
+          </component>
+          <component id="748b4" class="javax.swing.JSlider" binding="sliderMaksPredkosc">
+            <constraints>
+              <grid row="31" column="4" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="39"/>
+                <preferred-size width="-1" height="39"/>
+                <maximum-size width="-1" height="39"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <foreground color="-14479581"/>
+              <maximum value="500"/>
+              <minimum value="100"/>
+              <opaque value="false"/>
+            </properties>
+          </component>
+          <component id="38e7d" class="javax.swing.JLabel" binding="labelMaksymalnaPredkosc">
+            <constraints>
+              <grid row="31" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <foreground color="-14479581"/>
+              <text value="Maksymalna prędkość (km/h): "/>
+            </properties>
+          </component>
+          <component id="8cb70" class="javax.swing.JCheckBox" binding="checkBoxMaksPredkosc">
+            <constraints>
+              <grid row="31" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="22" style="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="a82c7">
+            <constraints>
+              <grid row="30" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="5"/>
+                <preferred-size width="-1" height="5"/>
+                <maximum-size width="-1" height="5"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="22e64" class="javax.swing.JButton" binding="buttonFiltruj">
+            <constraints>
+              <grid row="0" column="4" row-span="2" col-span="7" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="150" height="50"/>
+                <preferred-size width="150" height="50"/>
+                <maximum-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="28" style="0"/>
+              <foreground color="-1"/>
+              <text value="Filtruj"/>
+            </properties>
+          </component>
+          <component id="cf288" class="javax.swing.JLabel" binding="labelFiltrowanie">
+            <constraints>
+              <grid row="0" column="0" row-span="2" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="28" style="0"/>
+              <foreground color="-14479581"/>
+              <text value="Filtrowanie"/>
+            </properties>
+          </component>
+          <vspacer id="60d4c">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="10"/>
+                <preferred-size width="-1" height="10"/>
+                <maximum-size width="-1" height="10"/>
+              </grid>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="75c27" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="15" right="0"/>
+        <constraints>
+          <grid row="2" column="2" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="215fc" class="javax.swing.JButton" binding="buttonWyloguj">
+            <constraints>
+              <grid row="3" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="5" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="150" height="50"/>
+                <preferred-size width="150" height="50"/>
+                <maximum-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="28" style="0"/>
+              <foreground color="-1"/>
+              <text value="Wyloguj"/>
+            </properties>
+          </component>
+          <component id="e2958" class="javax.swing.JLabel" binding="labelUzytkownik">
+            <constraints>
+              <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="28" style="0"/>
+              <foreground color="-14479581"/>
+              <text value="Użytkownik: "/>
+            </properties>
+          </component>
+          <hspacer id="6b8f6">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="415" height="-1"/>
+                <preferred-size width="415" height="-1"/>
+                <maximum-size width="415" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="1532c" binding="adminPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="15" right="0"/>
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="96968" class="javax.swing.JButton" binding="labelDodajPojazd">
+            <constraints>
+              <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="205" height="50"/>
+                <preferred-size width="205" height="50"/>
+                <maximum-size width="205" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="28" style="0"/>
+              <foreground color="-1"/>
+              <text value="Dodaj pojazd"/>
+            </properties>
+          </component>
+          <component id="8cc63" class="javax.swing.JButton" binding="labelEdytujPojazd">
+            <constraints>
+              <grid row="0" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="205" height="50"/>
+                <preferred-size width="205" height="50"/>
+                <maximum-size width="205" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="28" style="0"/>
+              <foreground color="-1"/>
+              <text value="Edytuj pojazd"/>
+            </properties>
+          </component>
+          <component id="aa984" class="javax.swing.JButton" binding="labelUsunPojazd">
+            <constraints>
+              <grid row="0" column="2" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="205" height="50"/>
+                <preferred-size width="205" height="50"/>
+                <maximum-size width="205" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14736319"/>
+              <font name="Fira Code" size="28" style="0"/>
+              <foreground color="-1"/>
+              <text value="Usuń pojazd"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="1363f" binding="scrollPane">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="ab840" class="javax.swing.JTable" binding="tablePojazdy">
+            <constraints/>
+            <properties>
+              <font name="Fira Code" size="12" style="0"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <hspacer id="9f46b">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="c5a8f" class="javax.swing.JButton" binding="buttonNull">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="633" height="0"/>
+            <preferred-size width="633" height="0"/>
+            <maximum-size width="633" height="0"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14736319"/>
+          <font name="Fira Code" size="28" style="0"/>
+          <foreground color="-1"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
