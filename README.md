@@ -23,18 +23,19 @@ Repozytorium zawiera rozwiązania zadań opracowane w ramach przedmiotu **Progra
 
 ## 🔍 Zakres tematyczny
 
-- Różne podejścia do algorytmów:  
-  - Metoda brutalna.  
-  - Algorytm zachłanny.  
-- Implementacja konkretnych struktur danych:  
-  - Tablica dynamiczna.  
-  - Tablica mieszająca metodą łańcuchową.  
-- Implementacja abstrakcyjnych struktur danych:  
-  - Stos za pomocą klasy ArrayList.  
-  - Zbiór za pomocą klasy HashSet.  
-- Implementacja metod sortowania:  
-  - Bąbelkowe (Bubble Sort).  
-  - Przez wybór (Selection Sort).  
+- Podstawy języków programowania:  
+  - Zmienne, typy danych, tablice, operatory.  
+  - Typy wyliczeniowe (enum), kolekcje (List, Set, Map).  
+- Programowanie obiektowe:  
+  - Klasy i obiekty, konstruktory, metody, modyfikatory dostępu.  
+  - Dziedziczenie, interfejsy, klasy abstrakcyjne.  
+  - Polimorfizm, rzutowanie, przeciążanie i przysłanianie metod.  
+- Obsługa wyjątków i praca z danymi:  
+  - Obsługa błędów i wyjątków.  
+  - Praca z plikami CSV.  
+- Programowanie GUI (Java Swing):  
+  - Tworzenie graficznych interfejsów użytkownika.  
+  - PObsługa zdarzeń i podstawowe komponenty GUI.  
 
 ---
 
