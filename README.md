@@ -8,16 +8,16 @@ Repozytorium zawiera rozwiązania zadań opracowane w ramach przedmiotu **Progra
 
 ## 📁 Struktura repozytorium
 
-- `Zadania/Laboratoria C#/Main_Projekt` – Zadania realizowane podczas trzeciego semestru. Zadania wykonywane podczas zajęć dydaktycznych oraz samodzielnie jako uzupełnienie, rozszerzenie i utrwalenie materiału.    
-- `Zadania/Laboratoria Java GUI/src` – Zadania realizowane podczas trzeciego semestru. Zadania wykonywane podczas zajęć dydaktycznych oraz samodzielnie jako uzupełnienie, rozszerzenie i utrwalenie materiału.  
-- `Zadania/Laboratoria Java/src` – Zadania realizowane podczas drugiego semestru. Zadania wykonywane podczas zajęć dydaktycznych oraz samodzielnie jako uzupełnienie, rozszerzenie i utrwalenie materiału.  
+- `Zadania/Laboratoria C#/Main_Projekt` – Zadania realizowane podczas trzeciego semestru w języku C#. Obejmują podstawy programowania obiektowego w tym języku, w tym pracę z klasami, dziedziczenie, obsługę zdarzeń oraz struktury danych. Zadania wykonywane zarówno podczas zajęć, jak i samodzielnie w celu utrwalenia materiału.  
+- `Zadania/Laboratoria Java GUI/src` – Zadania z zakresu interfejsów graficznych w Javie, realizowane w trzecim semestrze. Projekty opierają się na edytorze GUI (.form) i obejmują podstawy tworzenia okienkowych aplikacji użytkowych (prawdopodobnie Java Swing lub GUI Builder). Zadania pomagają zrozumieć mechanizmy obsługi zdarzeń i projektowania UI.  
+- `Zadania/Laboratoria Java/src` – Zadania realizowane podczas drugiego semestru w języku Java. skupione na podstawach języka i programowania obiektowego. Zakres obejmuje operacje na tablicach, listach, mapach, klasy i interfejsy, przeciążanie metod oraz pierwsze kroki z obsługą wyjątków.  
 
 ---
 
 ## ⚙️ Wykorzystane technologie
 
-- `Język programowania:` Java.  
-- `IDE:` IntelliJ IDEA Community Edition.  
+- `Język programowania:` Java, C#.  
+- `IDE:` IntelliJ IDEA Community Edition, Visual Studio 2022.  
 
 ---
 
@@ -25,32 +25,16 @@ Repozytorium zawiera rozwiązania zadań opracowane w ramach przedmiotu **Progra
 
 - Różne podejścia do algorytmów:  
   - Metoda brutalna.  
-  - Metoda probabilistyczna (Monte Carlo).  
-  - Programowanie dynamiczne.  
-  - Dziel i zwyciężaj.  
   - Algorytm zachłanny.  
 - Implementacja konkretnych struktur danych:  
   - Tablica dynamiczna.  
-  - Uporządkowana tablica dynamiczna.  
-  - Lista powiązana liczb całkowitych.  
-  - Uporządkowana lista powiązana liczb całkowitych.  
-  - Drzewo BST liczb całkowitych.  
   - Tablica mieszająca metodą łańcuchową.  
 - Implementacja abstrakcyjnych struktur danych:  
   - Stos za pomocą klasy ArrayList.  
-  - Stos za pomocą klasy LinkedList.  
-  - Kolejka za pomocą klasy ArrayList.  
-  - Kolejka za pomocą klasy LinkedList.  
-  - Lista z bezpośrednim dostępem do każdego elementu za pomocą klasy ArrayList.  
-  - Lista dwustronna za pomocą klasy LinkedList.  
-  - Zbiór za pomocą klasy TreeSet.  
   - Zbiór za pomocą klasy HashSet.  
 - Implementacja metod sortowania:  
   - Bąbelkowe (Bubble Sort).  
   - Przez wybór (Selection Sort).  
-  - Przez wstawianie (Insertion Sort).  
-  - Przez scalanie (Merge Sort).  
-  - Szybkie (Quick Sort).  
 
 ---
 
