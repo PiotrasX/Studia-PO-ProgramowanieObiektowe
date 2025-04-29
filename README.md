@@ -30,12 +30,11 @@ Repozytorium zawiera rozwiązania zadań opracowane w ramach przedmiotu **Progra
   - Klasy i obiekty, konstruktory, metody, modyfikatory dostępu.  
   - Dziedziczenie, interfejsy, klasy abstrakcyjne.  
   - Polimorfizm, rzutowanie, przeciążanie i przysłanianie metod.  
-- Obsługa wyjątków i praca z danymi:  
-  - Obsługa błędów i wyjątków.  
-  - Praca z plikami CSV.  
+- Obsługa błędów i wyjątków.  
+- Praca z danymi i z plikami CSV.  
 - Programowanie GUI (Java Swing):  
   - Tworzenie graficznych interfejsów użytkownika.  
-  - PObsługa zdarzeń i podstawowe komponenty GUI.  
+  - Obsługa zdarzeń i podstawowych komponentów GUI.  
 
 ---
 
