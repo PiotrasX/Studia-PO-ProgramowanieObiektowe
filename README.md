@@ -8,9 +8,9 @@ Repozytorium zawiera rozwiązania zadań opracowane w ramach przedmiotu **Progra
 
 ## 📁 Struktura repozytorium
 
-- `Zadania/Laboratoria C#/Main_Projekt` – Zadania realizowane podczas trzeciego semestru w języku C#. Obejmują podstawy programowania obiektowego w tym języku, w tym pracę z klasami, dziedziczenie, obsługę zdarzeń oraz struktury danych. Zadania wykonywane zarówno podczas zajęć, jak i samodzielnie w celu utrwalenia materiału.  
-- `Zadania/Laboratoria Java GUI/src` – Zadania z zakresu interfejsów graficznych w Javie, realizowane w trzecim semestrze. Projekty opierają się na edytorze GUI (.form) i obejmują podstawy tworzenia okienkowych aplikacji użytkowych (prawdopodobnie Java Swing lub GUI Builder). Zadania pomagają zrozumieć mechanizmy obsługi zdarzeń i projektowania UI.  
-- `Zadania/Laboratoria Java/src` – Zadania realizowane podczas drugiego semestru w języku Java. skupione na podstawach języka i programowania obiektowego. Zakres obejmuje operacje na tablicach, listach, mapach, klasy i interfejsy, przeciążanie metod oraz pierwsze kroki z obsługą wyjątków.  
+- `Zadania/Laboratoria C#/Main_Projekt` – Zadania realizowane podczas trzeciego semestru w języku C#. Obejmują podstawy tego języka (typy, tablice, listy, wyjątki) oraz podstawy programowania obiektowego w tym języku, w tym pracę z klasami, dziedziczenie, obsługę zdarzeń oraz struktury danych. Zadania wykonywane zarówno podczas zajęć, jak i samodzielnie w celu utrwalenia materiału.  
+- `Zadania/Laboratoria Java GUI/src` – Zadania z zakresu interfejsów graficznych w Javie, realizowane w trzecim semestrze. Projekty opierają się na edytorze GUI Java Swing i obejmują podstawy tworzenia okienkowych aplikacji użytkowych. Zadania pomagają zrozumieć mechanizmy obsługi zdarzeń i projektowania UI.  
+- `Zadania/Laboratoria Java/src` – Zadania realizowane podczas drugiego semestru w języku Java. Skupione na podstawach języka Java i programowania obiektowego. Zakres obejmuje operacje na tablicach i listach, klasy i interfejsy, dziedziczenie i abstrakcję, przysłanianie i przeciążanie metod, obsługi wyjątków.  
 
 ---
 
