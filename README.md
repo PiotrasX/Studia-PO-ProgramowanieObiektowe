@@ -1,6 +1,6 @@
 # 📘 Studia - PO - Programowanie Obiektowe
 
-Repozytorium zawiera rozwiązania zadań opracowane w ramach przedmiotu **Programowanie Obiektowe**, realizowanego na Uniwersytecie Rzeszowskim podczas drugiego (2) i trzeciego (3) semestru studiów inżynierskich na kierunku informatyka.  
+Repozytorium zawiera rozwiązania zadań opracowane w ramach przedmiotu **Programowanie Obiektowe**, realizowanego na Uniwersytecie Rzeszowskim podczas drugiego (2) i trzeciego (3) semestru studiów inżynierskich na kierunku Informatyka.  
 
 &nbsp;  
 
