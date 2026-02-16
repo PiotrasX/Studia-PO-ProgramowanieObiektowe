@@ -18,8 +18,8 @@ Repozytorium zawiera rozwiązania zadań opracowane w ramach przedmiotu **Progra
 
 ## ⚙️ Wykorzystane technologie
 
-- `Język programowania:` Java, C#.  
-- `IDE:` IntelliJ IDEA Community Edition, Visual Studio 2022.  
+- `Języki programowania i technologie:` Java, C#.  
+- `Środowiska programisyczne:` IntelliJ IDEA Community Edition, Visual Studio 2022.  
 
 ---
 
